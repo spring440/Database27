@@ -1,0 +1,6 @@
+USE s17guest27;
+GO
+	BACKUP DATABASE s17guest27 
+	TO DISK = 's17guest27.Bak'
+	WITH DESCRIPTION = 's17guest27 DB backup'
+GO
